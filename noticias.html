@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Notícias </title>
+  <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="menu-container">
+        <div class="titulo">
+          <a href="index.html">Esporte<strong>Fácil</strong></a>
+        </div>
+
+        <!-- Menu desktop -->
+        <nav class="nav-desktop">
+          <a href="index.html">Home</a>
+          <a href="noticias.html" class="active">Notícias</a>
+          <a href="artigos.html">Artigos</a>
+          <a href="projetos.html">Projetos</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="contato.html">Contato</a>
+          <a href="politica_privacidade.html">Política de Privacidade</a>
+        </nav>
+
+        <!-- Menu hamburguer (mobile) -->
+        <input type="checkbox" id="menu-escondido" class="menu-escondido" />
+        <label for="menu-escondido" class="hamburguer">
+          <span class="linha linha1"></span>
+          <span class="linha linha2"></span>
+          <span class="linha linha3"></span>
+        </label>
+
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="noticias.html">Notícias</a></li>
+          <li><a href="artigos.html">Artigos</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li>
+            <a href="politica_privacidade.html">Política de Privacidade</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="conteudo-principal">
+      <section class="animate-fadeup">
+        <h1>Notícias Recentes</h1>
+        <p>Mantenha-se atualizado com os principais acontecimentos do mundo esportivo. Cobertura completa de eventos, campeonatos e lançamentos.</p>
+      </section>
+
+      <section class="animate-fadeup">
+        <div class="lista-cards">
+          <div class="card">
+            <img src="img/campeonato.jpg" alt="Campeonato">
+            <h3>Final do Campeonato Regional</h3>
+            <p>Resumo da final do campeonato regional, com destaque para os atletas e suas performances.</p>
+          </div>
+          <div class="card">
+            <img src="img/treino.jpg" alt="Treino">
+            <h3>Treinamento Funcional</h3>
+            <p>Novas metodologias de treino funcional para melhorar força, resistência e mobilidade.</p>
+          </div>
+          <div class="card">
+            <img src="img/lancamento_produto.jpg" alt="Produto">
+            <h3>Lançamento de Equipamentos</h3>
+            <p>Conheça os novos produtos que prometem revolucionar o mercado esportivo.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="rodape" class="p-10">
+        <div class="controle">
+          <div>© EsporteFácil - 2025</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
