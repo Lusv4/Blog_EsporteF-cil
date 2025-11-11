@@ -418,30 +418,6 @@ ul {
   flex-shrink: 0;
 }
 
-#numero1 {
-  background-color: #ffa601;
-}
-
-#numero2 {
-  background-color: #ff8a47;
-}
-
-#numero3 {
-  background-color: #ff7479;
-}
-
-#numero4 {
-  background-color: #ff78d6;
-}
-
-#numero5 {
-  background-color: #cc89f5;
-}
-
-#numero6 {
-  background-color: #05a3ff;
-}
-
 .conteudo h3 {
   font-size: 16px;
   color: var(--escuro);
