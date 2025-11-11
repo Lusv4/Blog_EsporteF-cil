@@ -277,7 +277,7 @@ p {
 .form-contato button:hover {
   background-color: var(--escuro);
   transform: scale(1.05);
-} 
+}
 
 /* ===== Cards ===== */
 .lista-cards {
@@ -345,9 +345,11 @@ ul {
 .animate-fadeup img {
   width: 600px;
 }
-.animate-fadeup{
+
+.animate-fadeup {
   text-align: center;
 }
+
 /*============ Estilização do infograma da pagina Replit ================*/
 .main-replit {
   max-width: 1600px;
@@ -446,10 +448,63 @@ ul {
   border-radius: 16px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 .numero img {
   width: 100%;
   height: 100%;
   border-radius: 16px;
+}
+
+/* ======= Passo a Passo =========*/
+.etapasP {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(590px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+#conteudo-principal-passo {
+  max-width: 1800px;
+  margin: 92px auto 40px;
+  padding: 20px;
+}
+
+.etapaP {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 680px;
+  padding: 15px 20px;
+  transition: transform 0.2s ease;
+}
+.conteudoP h3 {
+  font-size: 16px;
+  color: var(--escuro);
+  margin-bottom: 5px;
+}
+
+.conteudoP p {
+  font-size: 14px;
+  color: var(--texto);
+  margin: 0;
+}
+
+.conteudoP a {
+  color: #05a3ff;
+  text-decoration: none;
+}
+
+.conteudoP a:hover {
+  text-decoration: underline;
+}
+
+.conteudoP img {
+  padding-top: 10px;
+  height: 480px;
+  width: 684px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 
